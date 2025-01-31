@@ -9,7 +9,9 @@ The GitHub URL of this project
 
 ## Setup Instructions
 1️⃣ Clone the Repository
+
 git clone https://github.com/TIWASTRANGE/hng12-stage0-api.git
+
 cd hng12-stage0-api
 
 2️⃣ Install Dependencies
@@ -17,12 +19,16 @@ npm install
 
 3️⃣ Set Up Environment Variables
 Create a .env file in the project root and add:
+
 EMAIL=my-email@gmail.com
+
 GITHUB_URL=https://github.com/TIWASTRANGE/hng12-stage0-api
+
 PORT=3000
 
 4️⃣ Run the Server Locally
 Start the server using nodemon:
+
 npx nodemon index.js
 
 The API will be available at:
